@@ -26,14 +26,15 @@ public class SearchOccurrenceTask extends RecursiveTask<Integer> {
     protected Integer compute() {
         int size = end - start + 1; // Calculate the size of the task.
 
-        if (size > 250) {
+        if (size > 2500) {
             int mid = (start + end) / 2;
 
             SearchOccurrenceTask task1 = new SearchOccurrenceTask(arr, start, mid, searchElement);
             SearchOccurrenceTask task2 = new SearchOccurrenceTask(arr, mid + 1, end, searchElement);
 
-            task1.fork();
-            task2.fork();
+            // task1.fork()
+            // task2.fork()
+            invokeAll(task1, task2);
 
             return task1.join() + task2.join();
         } else {
@@ -54,7 +55,7 @@ public class SearchOccurrenceTask extends RecursiveTask<Integer> {
 
 class FJPDemo {
     public static void main(String[] args) {
-        int[] arr = new int[100_000];
+        int[] arr = new int[10_00_000];
         Random random = new Random();
 
         for (int i = 0; i < arr.length; i++) {
