@@ -6,6 +6,12 @@ import java.lang.management.ThreadMXBean;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
+/**
+ * There are three different types of issues:
+ * 1. Deadlocks
+ * 2. Live-locks.
+ * 3. Starvation.
+ */
 public class DeadlockDemo {
 
     private final Lock lockA = new ReentrantLock(true);

@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f6aa016-e282-4c4a-83f1-6f318b12ac44" name="Changes" comment="Parallelism at its best. 🙄">
-      <change afterPath="$PROJECT_DIR$/lib/hamcrest-core-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-4.13.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parallel/OneDimAveragingPhaser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parallel/OneDimAveragingPhaserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parallel/Parallel.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parallel/ReciprocalArraySum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parallel/ReciprocalArraySumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parallel/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parallel/StudentAnalytics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parallel/StudentAnalyticsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultiThreading.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MultiThreading.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/forkJoin/SearchOccurrenceTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/forkJoin/SearchOccurrenceTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/otherConcepts/DeadlockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/otherConcepts/DeadlockDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +52,7 @@
     "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/miniproject_4/pom.xml",
+    "last_opened_file_path": "D:/PCDP-master/pom.xml",
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
@@ -201,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721632261504</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Parallelism at its best. 🙄">
+      <option name="closed" value="true" />
+      <created>1722081888033</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722081888033</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
