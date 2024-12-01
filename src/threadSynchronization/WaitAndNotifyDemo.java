@@ -1,5 +1,9 @@
 package threadSynchronization;
 
+/**
+ * Missed Signals
+ * Spurious Wakeups
+ * */
 public class WaitAndNotifyDemo {
 
     private static final Object LOCK = new Object();

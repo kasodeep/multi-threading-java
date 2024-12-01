@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f6aa016-e282-4c4a-83f1-6f318b12ac44" name="Changes" comment="Industry Grade Coding...">
+    <list default="true" id="7f6aa016-e282-4c4a-83f1-6f318b12ac44" name="Changes" comment="Real Problem-Solving! Getting Some Idea!">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basicMultithreading/RunnableThreadExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicMultithreading/RunnableThreadExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threadSynchronization/WaitAndNotifyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadSynchronization/WaitAndNotifyDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -27,6 +30,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2jYTVNyPcBSHloEAzcytHkDOnl1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -39,6 +45,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BillionRows.executor": "Run",
+    "Application.ReentrantLockDemo.executor": "Debug",
     "Downloaded.Files.Path.Enabled": "true",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -50,9 +58,19 @@
     "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/PCDP-master/pom.xml",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Java/MultiThreading",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -67,93 +85,79 @@
       <recent name="parallel" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StudentAnalyticsTest.testCountNumberOfFailedStudentsOlderThan20Perf">
-    <configuration name="OneDimAveragingPhaserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.BillionRows">
+    <configuration name="BillionRows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="billion.BillionRows" />
       <module name="MultiThreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="parallel.*" />
+          <option name="PATTERN" value="billion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="parallel" />
-      <option name="MAIN_CLASS_NAME" value="parallel.OneDimAveragingPhaserTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReciprocalArraySumTest.testParManyTaskTwoHundredMillion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JoinThreadExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicMultithreading.JoinThreadExample" />
       <module name="MultiThreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="parallel.*" />
+          <option name="PATTERN" value="basicMultithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="parallel" />
-      <option name="MAIN_CLASS_NAME" value="parallel.ReciprocalArraySumTest" />
-      <option name="METHOD_NAME" value="testParManyTaskTwoHundredMillion" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReciprocalArraySumTest.testParManyTaskTwoMillion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReentrantLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="locks.ReentrantLockDemo" />
       <module name="MultiThreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="parallel.*" />
+          <option name="PATTERN" value="locks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="parallel" />
-      <option name="MAIN_CLASS_NAME" value="parallel.ReciprocalArraySumTest" />
-      <option name="METHOD_NAME" value="testParManyTaskTwoMillion" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReciprocalArraySumTest.testParSimpleTwoMillion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Visibility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="otherConcepts.Visibility" />
       <module name="MultiThreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="parallel.*" />
+          <option name="PATTERN" value="otherConcepts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="parallel" />
-      <option name="MAIN_CLASS_NAME" value="parallel.ReciprocalArraySumTest" />
-      <option name="METHOD_NAME" value="testParSimpleTwoMillion" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentAnalyticsTest.testCountNumberOfFailedStudentsOlderThan20Perf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WaitAndNotifyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadSynchronization.WaitAndNotifyDemo" />
       <module name="MultiThreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="parallel.*" />
+          <option name="PATTERN" value="threadSynchronization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="parallel" />
-      <option name="MAIN_CLASS_NAME" value="parallel.StudentAnalyticsTest" />
-      <option name="METHOD_NAME" value="testCountNumberOfFailedStudentsOlderThan20Perf" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StudentAnalyticsTest.testCountNumberOfFailedStudentsOlderThan20Perf" />
-        <item itemvalue="JUnit.ReciprocalArraySumTest.testParSimpleTwoMillion" />
-        <item itemvalue="JUnit.ReciprocalArraySumTest.testParManyTaskTwoHundredMillion" />
-        <item itemvalue="JUnit.ReciprocalArraySumTest.testParManyTaskTwoMillion" />
-        <item itemvalue="JUnit.OneDimAveragingPhaserTest" />
+        <item itemvalue="Application.BillionRows" />
+        <item itemvalue="Application.ReentrantLockDemo" />
+        <item itemvalue="Application.WaitAndNotifyDemo" />
+        <item itemvalue="Application.Visibility" />
+        <item itemvalue="Application.JoinThreadExample" />
       </list>
     </recent_temporary>
   </component>
@@ -165,6 +169,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721563034756</updated>
+      <workItem from="1731424751101" duration="194000" />
+      <workItem from="1731501953447" duration="126000" />
+      <workItem from="1733056351846" duration="1782000" />
     </task>
     <task id="LOCAL-00001" summary="Basics &amp; Executors Completed!!">
       <option name="closed" value="true" />
@@ -198,8 +205,19 @@
       <option name="project" value="LOCAL" />
       <updated>1722081888033</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Real Problem-Solving! Getting Some Idea!">
+      <option name="closed" value="true" />
+      <created>1729267196221</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729267196221</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -217,6 +235,7 @@
     <MESSAGE value="Locks &amp; Collections Completed!!" />
     <MESSAGE value="Fork Join &amp; Use Cases Done!!" />
     <MESSAGE value="Parallelism at its best. " />
-    <option name="LAST_COMMIT_MESSAGE" value="Parallelism at its best. " />
+    <MESSAGE value="Real Problem-Solving! Getting Some Idea!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Real Problem-Solving! Getting Some Idea!" />
   </component>
 </project>

@@ -8,9 +8,9 @@ public class RunnableThreadExample {
 
         Thread threadThree = new Thread(() -> {
             for (int i = 1; i <= 10; i++) {
-                System.out.println("Thread Three: " + i);
+                System.out.println(Thread.currentThread().getName() + ": " + i);
             }
-        });
+        }, "Thread Three");
 
         threadOne.start();
         threadTwo.start();
