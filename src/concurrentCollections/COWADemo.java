@@ -48,7 +48,7 @@ class ReadTask implements Runnable {
 
     @Override
     public void run() {
-        while (true) {
+        while (Thread.currentThread().isAlive()) {
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
@@ -72,7 +72,7 @@ class WriteTask implements Runnable {
 
     @Override
     public void run() {
-        while (true) {
+        while (Thread.currentThread().isAlive()) {
             try {
                 Thread.sleep(1200);
             } catch (InterruptedException e) {

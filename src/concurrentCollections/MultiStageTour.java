@@ -39,8 +39,8 @@ public class MultiStageTour {
 
                 System.out.println("Tourist " + touristId + " arrives at Stage " + i);
 
-                // Wait for all tourists to arrive at the current stage.
                 try {
+                    // Wait for all tourists to arrive at the current stage.
                     barrier.await();
                 } catch (InterruptedException | BrokenBarrierException e) {
                     throw new RuntimeException(e);

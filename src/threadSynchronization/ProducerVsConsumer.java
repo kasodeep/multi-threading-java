@@ -67,7 +67,7 @@ public class ProducerVsConsumer {
         @Override
         public void run() {
             try {
-                while (true) {
+                while (Thread.currentThread().isAlive()) {
                     consume();
                 }
             } catch (InterruptedException e) {
@@ -77,12 +77,12 @@ public class ProducerVsConsumer {
 
         private void consume() throws InterruptedException {
             synchronized (list) {
-                while (list.isEmpty()) {
+                while (list.isEmpty()) { // Guarded Blocks.
                     System.out.println("Consumer waiting, list empty");
                     list.wait();
                 }
 
-                int value = list.remove(0);
+                int value = list.removeFirst();
                 System.out.println("Consumed: " + value);
                 list.notifyAll();
             }

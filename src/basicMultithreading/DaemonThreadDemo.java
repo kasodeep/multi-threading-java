@@ -2,7 +2,7 @@ package basicMultithreading;
 
 public class DaemonThreadDemo {
 
-    public static void main(String[] args) {
+    public static void main() {
         Thread bgThread = new Thread(new DaemonHelper());
         Thread userThread = new Thread(new UserThread());
 
@@ -33,7 +33,10 @@ class UserThread implements Runnable {
     @Override
     public void run() {
         try {
-            Thread.sleep(5000);
+            Thread.sleep(5000); // Causes the thread to sleep.
+
+            boolean interrupted = Thread.interrupted();
+            System.out.println("User thread interrupted: " + interrupted);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }

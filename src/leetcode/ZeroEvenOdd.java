@@ -7,7 +7,7 @@ public class ZeroEvenOdd {
 
     Semaphore s0, sEven, sOdd;
 
-    private int n;
+    private final int n;
 
     public ZeroEvenOdd(int n) {
         this.n = n;
@@ -16,7 +16,6 @@ public class ZeroEvenOdd {
         sOdd = new Semaphore(0);
     }
 
-    // printNumber.accept(x) outputs "x", where x is an integer.
     public void zero(IntConsumer printNumber) throws InterruptedException {
         for (int i = 1; i <= this.n; i++) {
             s0.acquire();

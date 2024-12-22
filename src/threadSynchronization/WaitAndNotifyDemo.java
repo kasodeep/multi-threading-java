@@ -2,7 +2,7 @@ package threadSynchronization;
 
 /**
  * Missed Signals
- * Spurious Wakeups
+ * Spurious Wakeup
  * */
 public class WaitAndNotifyDemo {
 

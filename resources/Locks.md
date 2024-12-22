@@ -1,8 +1,7 @@
 ## LOCKS
 
 * Introduction to Locks
-* What are Locks?
-* Why are Locks important?
+    - Lock objects work very much like the implicit locks used by synchronized code.
 
 * Synchronized Blocks VS Locks
 * Comparison of Synchronised Blocks & Locks

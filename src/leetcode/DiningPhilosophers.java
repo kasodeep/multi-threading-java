@@ -8,6 +8,7 @@ public class DiningPhilosophers {
 
 
     private final Lock leftForkLock = new ReentrantLock();
+
     private final Lock rightForkLock = new ReentrantLock();
 
     public void wantsToEat(int philosopher,

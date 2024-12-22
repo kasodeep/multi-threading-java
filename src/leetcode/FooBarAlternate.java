@@ -6,6 +6,7 @@ public class FooBarAlternate {
 
     private final int n;
     private final Semaphore fooSemaphore = new Semaphore(1);
+
     private final Semaphore barSemaphore = new Semaphore(0);
 
     public FooBarAlternate(int n) {

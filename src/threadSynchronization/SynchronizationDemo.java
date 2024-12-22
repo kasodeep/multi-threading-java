@@ -1,19 +1,24 @@
 package threadSynchronization;
 
+/**
+ * Allowing a thread to acquire the same lock more than once enables reentrant synchronization.
+ */
 public class SynchronizationDemo {
 
     private static int counter = 0;
 
-    public static void main(String[] args) {
+    private static final Object lock = new Object();
+
+    public static void main() {
         Thread one = new Thread(() -> {
             for (int i = 0; i < 10000; i++) {
-                increment();
+                incrementSyncBlocks();
             }
         });
 
         Thread two = new Thread(() -> {
             for (int i = 0; i < 10000; i++) {
-                increment();
+                incrementSyncBlocks();
             }
         });
 
@@ -36,5 +41,11 @@ public class SynchronizationDemo {
      * */
     private synchronized static void increment() {
         counter++;
+    }
+
+    private static void incrementSyncBlocks() {
+        synchronized (lock) {
+            counter++;
+        }
     }
 }

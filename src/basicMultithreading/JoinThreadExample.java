@@ -2,7 +2,7 @@ package basicMultithreading;
 
 public class JoinThreadExample {
 
-    public static void main(String[] args) {
+    public static void main() {
         Thread one = new Thread(() -> {
             for (int i = 1; i <= 5; i++) {
                 System.out.println("Thread One: " + i);

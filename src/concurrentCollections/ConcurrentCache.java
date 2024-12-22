@@ -9,7 +9,7 @@ public class ConcurrentCache {
 
     public static void main(String[] args) {
         for (int i = 0; i < 10; i++) {
-            final int threadNum = i;
+            final int threadNum = (i + 1);
 
             new Thread(() -> {
                 String key = "Key @ " + threadNum;

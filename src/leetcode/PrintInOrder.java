@@ -7,7 +7,9 @@ import java.util.concurrent.locks.ReentrantLock;
 public class PrintInOrder {
 
     static class FooMethod {
+
         private boolean oneDone;
+
         private boolean twoDone;
 
         public FooMethod() {

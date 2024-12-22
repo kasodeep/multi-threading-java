@@ -5,6 +5,7 @@ import java.util.function.IntConsumer;
 public class FizzBuzz {
 
     private final int n;
+
     private int count;
 
     public FizzBuzz(int n) {

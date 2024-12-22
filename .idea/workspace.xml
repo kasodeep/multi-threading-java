@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f6aa016-e282-4c4a-83f1-6f318b12ac44" name="Changes" comment="Real Problem-Solving! Getting Some Idea!">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basicMultithreading/RunnableThreadExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicMultithreading/RunnableThreadExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadSynchronization/WaitAndNotifyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadSynchronization/WaitAndNotifyDemo.java" afterDir="false" />
-    </list>
+    <list default="true" id="7f6aa016-e282-4c4a-83f1-6f318b12ac44" name="Changes" comment="Mastering, My way from to the Top!" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +41,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BillionRows.executor": "Run",
+    "Application.DaemonThreadDemo.executor": "Run",
+    "Application.ExtendsThreadExample.executor": "Run",
     "Application.ReentrantLockDemo.executor": "Debug",
+    "Application.SynchronizationDemo.executor": "Run",
+    "Application.ThreadLocalExample.executor": "Run",
+    "Application.VirtualThreadDemo.executor": "Run",
+    "Application.WeatherApp.executor": "Run",
     "Downloaded.Files.Path.Enabled": "true",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -85,22 +86,9 @@
       <recent name="parallel" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BillionRows">
-    <configuration name="BillionRows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="billion.BillionRows" />
-      <module name="MultiThreading" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="billion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JoinThreadExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicMultithreading.JoinThreadExample" />
+  <component name="RunManager" selected="Application.WeatherApp">
+    <configuration name="DaemonThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicMultithreading.DaemonThreadDemo" />
       <module name="MultiThreading" />
       <extension name="coverage">
         <pattern>
@@ -112,34 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReentrantLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="locks.ReentrantLockDemo" />
-      <module name="MultiThreading" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="locks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Visibility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="otherConcepts.Visibility" />
-      <module name="MultiThreading" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="otherConcepts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WaitAndNotifyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threadSynchronization.WaitAndNotifyDemo" />
+    <configuration name="SynchronizationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadSynchronization.SynchronizationDemo" />
       <module name="MultiThreading" />
       <extension name="coverage">
         <pattern>
@@ -151,13 +113,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadLocalExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicMultithreading.ThreadLocalExample" />
+      <module name="MultiThreading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basicMultithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VirtualThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicMultithreading.VirtualThreadDemo" />
+      <module name="MultiThreading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basicMultithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="otherConcepts.WeatherApp" />
+      <module name="MultiThreading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="otherConcepts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BillionRows" />
-        <item itemvalue="Application.ReentrantLockDemo" />
-        <item itemvalue="Application.WaitAndNotifyDemo" />
-        <item itemvalue="Application.Visibility" />
-        <item itemvalue="Application.JoinThreadExample" />
+        <item itemvalue="Application.WeatherApp" />
+        <item itemvalue="Application.SynchronizationDemo" />
+        <item itemvalue="Application.VirtualThreadDemo" />
+        <item itemvalue="Application.ThreadLocalExample" />
+        <item itemvalue="Application.DaemonThreadDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +172,9 @@
       <updated>1721563034756</updated>
       <workItem from="1731424751101" duration="194000" />
       <workItem from="1731501953447" duration="126000" />
-      <workItem from="1733056351846" duration="1782000" />
+      <workItem from="1733056351846" duration="2045000" />
+      <workItem from="1733505283109" duration="263000" />
+      <workItem from="1734874417518" duration="4655000" />
     </task>
     <task id="LOCAL-00001" summary="Basics &amp; Executors Completed!!">
       <option name="closed" value="true" />
@@ -213,7 +216,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729267196221</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="A Billion Rows ! Really ?">
+      <option name="closed" value="true" />
+      <created>1733058380316</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733058380316</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Mastering, My way from to the Top!">
+      <option name="closed" value="true" />
+      <created>1734879610813</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1734879610813</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +255,8 @@
     <MESSAGE value="Fork Join &amp; Use Cases Done!!" />
     <MESSAGE value="Parallelism at its best. " />
     <MESSAGE value="Real Problem-Solving! Getting Some Idea!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Real Problem-Solving! Getting Some Idea!" />
+    <MESSAGE value="A Billion Rows ! Really ?" />
+    <MESSAGE value="Mastering, My way from to the Top!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mastering, My way from to the Top!" />
   </component>
 </project>

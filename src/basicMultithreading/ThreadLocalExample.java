@@ -2,7 +2,7 @@ package basicMultithreading;
 
 public class ThreadLocalExample {
 
-    public static void main(String[] args) {
+    public static void main() {
         ThreadLocal<Long> userThreadLocal = new ThreadLocal<>();
         Long userId = 1234L;
 

@@ -2,8 +2,8 @@ package basicMultithreading;
 
 public class VirtualThreadDemo {
 
-    public static void main(String[] args) {
-        final int numberOfThreads = 10_00_000;
+    public static void main() {
+        final int numberOfThreads = 10_000;
 
         Runnable objRunnable = () -> {
             String name = "Instagram";

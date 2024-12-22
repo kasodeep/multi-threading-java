@@ -33,7 +33,7 @@ public class SearchOccurrenceTask extends RecursiveTask<Integer> {
             SearchOccurrenceTask task2 = new SearchOccurrenceTask(arr, mid + 1, end, searchElement);
 
             // task1.fork()
-            // task2.fork()
+             task2.fork();
             invokeAll(task1, task2);
 
             return task1.join() + task2.join();
@@ -55,7 +55,7 @@ public class SearchOccurrenceTask extends RecursiveTask<Integer> {
 
 class FJPDemo {
     public static void main(String[] args) {
-        int[] arr = new int[10_00_000];
+        int[] arr = new int[10_000];
         Random random = new Random();
 
         for (int i = 0; i < arr.length; i++) {

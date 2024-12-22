@@ -81,7 +81,7 @@
     Many a times if we run the iterations in parallel, we will have lots of tasks.
     Hence, we divide the loop into chunks which run parallel and the inside run sequential.
 
-### Phasers:
+### Phaser's:
 
     The barriers are somewhat time consuming and we can't do other tasks that are useful.
     Hence we use the concept of phasers.

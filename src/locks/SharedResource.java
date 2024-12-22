@@ -30,6 +30,7 @@ public class SharedResource {
 }
 
 class ReadWriteLockDemo {
+
     public static void main(String[] args) {
         SharedResource sharedResource = new SharedResource();
 
@@ -39,8 +40,7 @@ class ReadWriteLockDemo {
                 for (int j = 0; j < 3; j++) {
                     sharedResource.getValue();
                 }
-            });
-            readerThread.setName("Reader Thread " + (i + 1));
+            }, "Reader Thread " + (i + 1));
             readerThread.start();
         }
 
@@ -49,8 +49,7 @@ class ReadWriteLockDemo {
             for (int i = 0; i < 5; i++) {
                 sharedResource.increment();
             }
-        });
-        writerThread.setName("Writer Thread");
+        }, "Writer Thread");
         writerThread.start();
     }
 }
