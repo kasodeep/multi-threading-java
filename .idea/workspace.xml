@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f6aa016-e282-4c4a-83f1-6f318b12ac44" name="Changes" comment="Mastering, My way from to the Top!" />
+    <list default="true" id="7f6aa016-e282-4c4a-83f1-6f318b12ac44" name="Changes" comment="Mastering, My way from to the Top!">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/billion/BillionRows.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,11 +44,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BillionRows.executor": "Run",
+    "Application.ChatServer.executor": "Run",
     "Application.DaemonThreadDemo.executor": "Run",
+    "Application.DijkstrasParallel.executor": "Run",
     "Application.ExtendsThreadExample.executor": "Run",
+    "Application.JoinThreadExample.executor": "Profiler#1",
+    "Application.PrimeFinder.executor": "Profiler#1",
     "Application.ReentrantLockDemo.executor": "Debug",
+    "Application.RunnableThreadExample.executor": "Profiler#1",
     "Application.SynchronizationDemo.executor": "Run",
     "Application.ThreadLocalExample.executor": "Run",
+    "Application.ThreadPoolDemo.executor": "Run",
     "Application.VirtualThreadDemo.executor": "Run",
     "Application.WeatherApp.executor": "Run",
     "Downloaded.Files.Path.Enabled": "true",
@@ -54,13 +63,14 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
     "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Java/MultiThreading",
+    "last_opened_file_path": "/run/media/night_fury_44/E8BAF974BAF9401C/Java/MultiThreading",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -70,7 +80,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -86,9 +96,22 @@
       <recent name="parallel" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WeatherApp">
-    <configuration name="DaemonThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicMultithreading.DaemonThreadDemo" />
+  <component name="RunManager" selected="Application.ChatServer">
+    <configuration name="ChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.ChatServer" />
+      <module name="MultiThreading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JoinThreadExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicMultithreading.JoinThreadExample" />
       <module name="MultiThreading" />
       <extension name="coverage">
         <pattern>
@@ -100,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SynchronizationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threadSynchronization.SynchronizationDemo" />
+    <configuration name="PrimeFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.PrimeFinder" />
       <module name="MultiThreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="threadSynchronization.*" />
+          <option name="PATTERN" value="practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,8 +136,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadLocalExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicMultithreading.ThreadLocalExample" />
+    <configuration name="RunnableThreadExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicMultithreading.RunnableThreadExample" />
       <module name="MultiThreading" />
       <extension name="coverage">
         <pattern>
@@ -126,25 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VirtualThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicMultithreading.VirtualThreadDemo" />
+    <configuration name="ThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="executorService.ThreadPoolDemo" />
       <module name="MultiThreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basicMultithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WeatherApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="otherConcepts.WeatherApp" />
-      <module name="MultiThreading" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="otherConcepts.*" />
+          <option name="PATTERN" value="executorService.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,13 +164,21 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WeatherApp" />
-        <item itemvalue="Application.SynchronizationDemo" />
-        <item itemvalue="Application.VirtualThreadDemo" />
-        <item itemvalue="Application.ThreadLocalExample" />
-        <item itemvalue="Application.DaemonThreadDemo" />
+        <item itemvalue="Application.ChatServer" />
+        <item itemvalue="Application.ThreadPoolDemo" />
+        <item itemvalue="Application.PrimeFinder" />
+        <item itemvalue="Application.JoinThreadExample" />
+        <item itemvalue="Application.RunnableThreadExample" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.189" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.189" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -174,7 +192,14 @@
       <workItem from="1731501953447" duration="126000" />
       <workItem from="1733056351846" duration="2045000" />
       <workItem from="1733505283109" duration="263000" />
-      <workItem from="1734874417518" duration="4655000" />
+      <workItem from="1734874417518" duration="4878000" />
+      <workItem from="1734879972185" duration="21000" />
+      <workItem from="1738776531510" duration="390000" />
+      <workItem from="1740129497261" duration="382000" />
+      <workItem from="1741684105813" duration="235000" />
+      <workItem from="1741685236950" duration="10000" />
+      <workItem from="1743766917095" duration="3024000" />
+      <workItem from="1743845848786" duration="2228000" />
     </task>
     <task id="LOCAL-00001" summary="Basics &amp; Executors Completed!!">
       <option name="closed" value="true" />
@@ -232,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734879610813</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Mastering, My way from to the Top!">
+      <option name="closed" value="true" />
+      <created>1734879759902</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1734879759902</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
