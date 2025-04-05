@@ -28,7 +28,6 @@ public class FizzBuzz {
     }
 
     public synchronized void buzz(Runnable printBuzz) throws InterruptedException {
-
         while (count <= n) {
             boolean condition = divisible(count, 5) && !divisible(count, 3);
             if (condition) {
