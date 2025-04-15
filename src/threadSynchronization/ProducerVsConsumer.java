@@ -46,12 +46,12 @@ public class ProducerVsConsumer {
             synchronized (list) {
                 while (list.size() == capacity) {
                     System.out.println("Producer waiting, list full");
-                    list.wait(); // The thread will start executing when notified by consumer.
+                    wait(); // The thread will start executing when notified by consumer.
                 }
 
                 list.add(value);
                 System.out.println("Produced: " + value);
-                list.notifyAll();
+                notifyAll();
             }
         }
     }

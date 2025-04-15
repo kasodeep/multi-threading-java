@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f6aa016-e282-4c4a-83f1-6f318b12ac44" name="Changes" comment="Concurrency Simplified! Now no Fear...">
-      <change afterPath="$PROJECT_DIR$/src/executorService/ThreadPoolDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/FizzBuzz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/executorService/ThreadPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/executorService/ThreadPoolDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threadSynchronization/ProducerVsConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadSynchronization/ProducerVsConsumer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,17 +72,17 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/run/media/night_fury_44/E8BAF974BAF9401C/Java/MultiThreading",
+    "last_opened_file_path": "/home/night_fury_44/Codes/System Design/low-level",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -97,7 +98,7 @@
       <recent name="parallel" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ChatServer">
+  <component name="RunManager" selected="Application.ReentrantLockDemo">
     <configuration name="ChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice.ChatServer" />
       <module name="MultiThreading" />
@@ -137,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunnableThreadExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicMultithreading.RunnableThreadExample" />
+    <configuration name="ReentrantLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="locks.ReentrantLockDemo" />
       <module name="MultiThreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basicMultithreading.*" />
+          <option name="PATTERN" value="locks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,19 +166,19 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReentrantLockDemo" />
         <item itemvalue="Application.ChatServer" />
         <item itemvalue="Application.ThreadPoolDemo" />
         <item itemvalue="Application.PrimeFinder" />
         <item itemvalue="Application.JoinThreadExample" />
-        <item itemvalue="Application.RunnableThreadExample" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.189" />
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.189" />
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
       </set>
     </attachedChunks>
   </component>
@@ -201,6 +202,11 @@
       <workItem from="1741685236950" duration="10000" />
       <workItem from="1743766917095" duration="3024000" />
       <workItem from="1743845848786" duration="4023000" />
+      <workItem from="1744607007466" duration="54000" />
+      <workItem from="1744607094776" duration="34000" />
+      <workItem from="1744607260025" duration="455000" />
+      <workItem from="1744608861632" duration="30000" />
+      <workItem from="1744721009324" duration="1821000" />
     </task>
     <task id="LOCAL-00001" summary="Basics &amp; Executors Completed!!">
       <option name="closed" value="true" />
@@ -302,5 +308,20 @@
     <MESSAGE value="Sewing the Threads Of Success!" />
     <MESSAGE value="Concurrency Simplified! Now no Fear..." />
     <option name="LAST_COMMIT_MESSAGE" value="Concurrency Simplified! Now no Fear..." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/locks/ReentrantLockDemo.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

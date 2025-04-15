@@ -10,7 +10,15 @@ public class ThreadPoolDemo {
                 4,
                 1, TimeUnit.SECONDS,
                 new ArrayBlockingQueue<>(3),
-                Executors.defaultThreadFactory(),
+                // Executors.defaultThreadFactory
+                new ThreadFactory() {
+                    static int count = 1;
+
+                    @Override
+                    public Thread newThread(Runnable runnable) {
+                        return new Thread(runnable, "thread-" + count++);
+                    }
+                },
                 new ThreadPoolExecutor.AbortPolicy()
         );
 
