@@ -36,7 +36,7 @@ public class SynchronizationDemo {
     }
 
     /*
-     * Synchronization behaviour at method level will acquire class level block.
+     * Synchronization behavior at method level will acquire class level block.
      * There will be concurrency problem and performance bottleneck.
      * */
     private synchronized static void increment() {

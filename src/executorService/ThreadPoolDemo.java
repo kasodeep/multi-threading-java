@@ -30,7 +30,7 @@ public class ThreadPoolDemo {
                     System.out.println(Thread.currentThread().getName() + " running task " + taskId);
                     try {
                         Thread.sleep(1000);
-                    } catch (InterruptedException _) {
+                    } catch (InterruptedException ignored) {
                     }
                 });
             } catch (RejectedExecutionException e) {

@@ -9,6 +9,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/executorService/ThreadPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/executorService/ThreadPoolDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/threadSynchronization/ProducerVsConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadSynchronization/ProducerVsConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threadSynchronization/SynchronizationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadSynchronization/SynchronizationDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,11 +31,14 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2jYTVNyPcBSHloEAzcytHkDOnl1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -43,49 +47,54 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BillionRows.executor": "Run",
-    "Application.ChatServer.executor": "Run",
-    "Application.DaemonThreadDemo.executor": "Run",
-    "Application.DijkstrasParallel.executor": "Run",
-    "Application.ExtendsThreadExample.executor": "Run",
-    "Application.JoinThreadExample.executor": "Profiler#1",
-    "Application.PrimeFinder.executor": "Profiler#1",
-    "Application.ReentrantLockDemo.executor": "Debug",
-    "Application.RunnableThreadExample.executor": "Profiler#1",
-    "Application.SynchronizationDemo.executor": "Run",
-    "Application.ThreadLocalExample.executor": "Run",
-    "Application.ThreadPoolDemo.executor": "Run",
-    "Application.VirtualThreadDemo.executor": "Run",
-    "Application.WeatherApp.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/night_fury_44/Codes/System Design/low-level",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Atomicity.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BillionRows.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChatServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DaemonThreadDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DijkstrasParallel.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExtendsThreadExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JoinThreadExample.executor&quot;: &quot;Profiler#1&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimeFinder.executor&quot;: &quot;Profiler#1&quot;,
+    &quot;Application.ReentrantLockDemo.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.RunnableThreadExample.executor&quot;: &quot;Profiler#1&quot;,
+    &quot;Application.SynchronizationDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadLocalExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadPoolDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VirtualThreadDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WeatherApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.jobscheduler.dag.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/night_fury_44/Desktop/Programs/Java/multi-threading-java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Java\MultiThreading" />
@@ -98,13 +107,13 @@
       <recent name="parallel" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReentrantLockDemo">
-    <configuration name="ChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.ChatServer" />
+  <component name="RunManager" selected="Application.ThreadPoolDemo">
+    <configuration name="Atomicity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="otherConcepts.Atomicity" />
       <module name="MultiThreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.*" />
+          <option name="PATTERN" value="otherConcepts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JoinThreadExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicMultithreading.JoinThreadExample" />
+    <configuration name="JobSchedular" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jobscheduler.wait.JobSchedular" />
       <module name="MultiThreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basicMultithreading.*" />
+          <option name="PATTERN" value="jobscheduler.wait.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,25 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.PrimeFinder" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jobscheduler.wait.Main" />
       <module name="MultiThreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReentrantLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="locks.ReentrantLockDemo" />
-      <module name="MultiThreading" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="locks.*" />
+          <option name="PATTERN" value="jobscheduler.wait.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,21 +160,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="jobscheduler.dag.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jobscheduler.dag.Main" />
+      <module name="MultiThreading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jobscheduler.dag.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReentrantLockDemo" />
-        <item itemvalue="Application.ChatServer" />
         <item itemvalue="Application.ThreadPoolDemo" />
-        <item itemvalue="Application.PrimeFinder" />
-        <item itemvalue="Application.JoinThreadExample" />
+        <item itemvalue="Application.jobscheduler.dag.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.JobSchedular" />
+        <item itemvalue="Application.Atomicity" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.138" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.29346.138" />
       </set>
     </attachedChunks>
   </component>
@@ -207,6 +216,12 @@
       <workItem from="1744607260025" duration="455000" />
       <workItem from="1744608861632" duration="30000" />
       <workItem from="1744721009324" duration="1821000" />
+      <workItem from="1756027625919" duration="183000" />
+      <workItem from="1766150508081" duration="27000" />
+      <workItem from="1767162238195" duration="1749000" />
+      <workItem from="1767165382999" duration="4384000" />
+      <workItem from="1767260187358" duration="20000" />
+      <workItem from="1767331683199" duration="1589000" />
     </task>
     <task id="LOCAL-00001" summary="Basics &amp; Executors Completed!!">
       <option name="closed" value="true" />
