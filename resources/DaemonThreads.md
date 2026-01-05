@@ -3,7 +3,6 @@
     * Daemon Threads
     * User Threads
 
-
 * When a Java program starts the main thread (main() method thread) starts running immediately. We can start child threads
   from the main thread. The main thread is the last thread to finish execution in normal circumstances, because it has to
   perform various shutdown operations.

@@ -9,7 +9,7 @@ public class SynchronizationDemo {
 
     private static final Object lock = new Object();
 
-    public static void main() {
+    public static void main(String[] args) {
         Thread one = new Thread(() -> {
             for (int i = 0; i < 10000; i++) {
                 incrementSyncBlocks();

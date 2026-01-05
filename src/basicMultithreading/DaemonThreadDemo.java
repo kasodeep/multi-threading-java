@@ -2,7 +2,7 @@ package basicMultithreading;
 
 public class DaemonThreadDemo {
 
-    public static void main() {
+    public static void main(String[] args) {
         Thread bgThread = new Thread(new DaemonHelper());
         Thread userThread = new Thread(new UserThread());
 

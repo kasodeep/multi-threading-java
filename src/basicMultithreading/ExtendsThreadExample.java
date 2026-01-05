@@ -2,7 +2,7 @@ package basicMultithreading;
 
 public class ExtendsThreadExample {
 
-    public static void main() {
+    public static void main(String []args) {
         Thread one = new Thread1();
         Thread two = new Thread2();
 

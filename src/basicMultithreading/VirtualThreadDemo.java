@@ -2,7 +2,7 @@ package basicMultithreading;
 
 public class VirtualThreadDemo {
 
-    public static void main() {
+    public static void main(String[] args) {
         final int numberOfThreads = 10_000;
 
         Runnable objRunnable = () -> {
