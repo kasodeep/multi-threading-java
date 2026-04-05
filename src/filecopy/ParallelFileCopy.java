@@ -34,7 +34,7 @@ public class ParallelFileCopy {
 
                     int bytesWritten = 0;
                     try {
-                        dst.pwrite(buffer, bytesRead, offset);
+                        bytesWritten = dst.pwrite(buffer, bytesRead, offset);
                     } catch (IOException e) {
                         throw new RuntimeException(e);
                     }
